@@ -9,3 +9,4 @@ Houfin64
 ________
 Controls
 ________
+g: pick up/get
