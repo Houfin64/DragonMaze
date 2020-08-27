@@ -4,3 +4,8 @@ I built a rougelike in my spare time, and previously had a bunch of stuff on it 
 Thanks for looking at my game!
 
 Houfin64
+
+
+________
+Controls
+________
