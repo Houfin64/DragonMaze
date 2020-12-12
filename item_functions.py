@@ -51,17 +51,17 @@ def shoot(*args, **kwargs):
             damage = (shooter.fighter.dexterity * 2) + 2
             if direction == 'up':
                 if get_blocking_entities_at_location(entities, shooter.x, shooter.y - i):
-                    if get_blocking_entities_at_location(entities, shooter.x + i, shooter.y).monster_class != '(Pet)':
+                    if get_blocking_entities_at_location(entities, shooter.x, shooter.y - i).monster_class != '(Pet)':
                         target = get_blocking_entities_at_location(entities, shooter.x, shooter.y - i)
 
             elif direction == 'down':
                 if get_blocking_entities_at_location(entities, shooter.x, shooter.y + i):
-                    if get_blocking_entities_at_location(entities, shooter.x + i, shooter.y).monster_class != '(Pet)':
+                    if get_blocking_entities_at_location(entities, shooter.x, shooter.y + i).monster_class != '(Pet)':
                         target = get_blocking_entities_at_location(entities, shooter.x, shooter.y + i)
 
             elif direction == 'left':
                 if get_blocking_entities_at_location(entities, shooter.x - i, shooter.y):
-                    if get_blocking_entities_at_location(entities, shooter.x + i, shooter.y).monster_class != '(Pet)':
+                    if get_blocking_entities_at_location(entities, shooter.x - i, shooter.y).monster_class != '(Pet)':
                         target = get_blocking_entities_at_location(entities, shooter.x - i, shooter.y)
 
             elif direction == 'right':
@@ -126,17 +126,17 @@ def big_shoot(*args, **kwargs):
             damage = (shooter.fighter.dexterity * 3)
             if direction == 'up':
                 if get_blocking_entities_at_location(entities, shooter.x, shooter.y - i):
-                    if get_blocking_entities_at_location(entities, shooter.x + i, shooter.y).monster_class != '(Pet)':
+                    if get_blocking_entities_at_location(entities, shooter.x, shooter.y - i).monster_class != '(Pet)':
                         target = get_blocking_entities_at_location(entities, shooter.x, shooter.y - i)
 
             elif direction == 'down':
                 if get_blocking_entities_at_location(entities, shooter.x, shooter.y + i):
-                    if get_blocking_entities_at_location(entities, shooter.x + i, shooter.y).monster_class != '(Pet)':
+                    if get_blocking_entities_at_location(entities, shooter.x, shooter.y + i).monster_class != '(Pet)':
                         target = get_blocking_entities_at_location(entities, shooter.x, shooter.y + i)
 
             elif direction == 'left':
                 if get_blocking_entities_at_location(entities, shooter.x - i, shooter.y):
-                    if get_blocking_entities_at_location(entities, shooter.x + i, shooter.y).monster_class != '(Pet)':
+                    if get_blocking_entities_at_location(entities, shooter.x - i, shooter.y).monster_class != '(Pet)':
                         target = get_blocking_entities_at_location(entities, shooter.x - i, shooter.y)
 
             elif direction == 'right':
