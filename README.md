@@ -1,12 +1,17 @@
 # DragonMaze
-I built a rougelike in my spare time, and previously had a bunch of stuff on it withnew versions, but something went wrong withthe repository, so i deleted it and have now created this new one with  a downloadable exe rather that the code itself, so hopefully this should be quicker to download, and easier to run
+I built a rougelike in my spare time, using python and libtcod.  To run this code w#you will need to install python, go into terminal and run `pip3 install tcod` and then you should be able to run this!
 
 Thanks for looking at my game!
 
 Houfin64
 
+__CONTROLS__
+arrow keys or numpad to move
+g-get
+period-wait
+i-inventory
+d-drop something
+c-view character stats
+> or < to go down/up stairs: same as symbol on screen
 
-________
-Controls
-________
-g: pick up/get
+if you have any questions, ask me on discord @Houfin#5305
