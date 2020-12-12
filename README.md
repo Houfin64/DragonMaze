@@ -6,14 +6,14 @@ Thanks for looking at my game!
 Houfin64
 
 __CONTROLS__
-arrow keys or numpad to move
+``arrow keys or numpad to move
 g-get
 period-wait
 i-inventory
 d-drop something
 c-view character stats
-> or < to go down/up stairs: same as symbol on screen
-
+'>' or '<' to go down/up stairs: same as symbol on screen
+``
 if you have any questions, ask me on discord @Houfin#5305
 
 By the way, so exe is a couple versions behind the rest of it, i'll fix that soon
