@@ -38,7 +38,7 @@ def get_constants():
 
     fov_algorithm = 0
     fov_light_walls = True
-    fov_radius = 30
+    fov_radius = 5
 
     constants = {
         'window_title': window_title,
